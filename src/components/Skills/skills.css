@@ -1,6 +1,6 @@
 #skills {
     overflow: hidden;
-    width: 100vh;
+    width: 100vw;
     max-width: 65rem;
     display: flex;
     flex-direction: column;
@@ -20,8 +20,9 @@
 .skillDesc {
     font-weight: 400;
     font-size: 1rem;
-    max-width: 50rem;
+    max-width: 51rem;
     padding: 0 2rem;
+    width: 100vw;
 }
 
 .skillBars {
@@ -34,7 +35,7 @@
 .skillBar {
     display: flex;
     margin: 1rem;
-    padding: 1.5rem;
+    padding: 1.5rem 2rem;
     border-radius: 0.5rem;
     background: rgb(50, 50, 50);
 }
@@ -52,12 +53,12 @@
 
 }
 
-@media screen and (maxwidth:720px) {
+@media screen and (maxwidth: 720px) {
     .skillBarText>p {
         font-size: 2vw;
     }
 }
-@media screen and (maxwidth:480px) {
+@media screen and (maxwidth: 480px) {
     .skillBarText>p {
         font-size: 3vw;
     }

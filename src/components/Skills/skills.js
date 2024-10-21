@@ -8,8 +8,9 @@ const Skills = () => {
   return (
    <section id='skills'>
     <span className="skillTitle">What I do</span>
-    <span className="skillDesc">I am a skilled and passionate web designer with experience in creating visually appealing and user friendly websites.  i have a strong understanding of design and a keen eye for detail. i am proficient in HTML, CSS, and Javascript, as well as design software such as Adobe Photoshop and illustrator.</span>
-    <div className="skillBar">
+    <span className="skillDesc">I am a skilled and passionate web designer with experience in creating visually appealing and user friendly websites.</span>
+    <div className="skillBars">
+        <div className="skillBar">
     <img src={UIDesign} alt="UIDesign" className="skillBarImg"/>
     <div className="skillBarText">
     <h2>UI/UX Design</h2>
@@ -28,6 +29,7 @@ const Skills = () => {
     <div className="skillBarText">
     <h2>App Design</h2>
     <p>I focus on user research and interface design, ensuring that every app I design is both visually appealing and easy to navigate. Proficient in tools like Sketch, Figma, and Adobe XD, I collaborate closely with developers and stakeholders to bring innovative ideas to life.</p>
+    </div>
     </div>
     </div>
    </section>
